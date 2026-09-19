@@ -28,6 +28,28 @@ The browser samples the court as two overlapping image crops and reduces them to
 
 The visual scene, neural state, activity display, muscle plant, and experiment controls are kept separate on purpose. This makes it possible to ask whether a result comes from the retained graph, a modelling assumption, a numerical choice, or a display-only feature.
 
+## Interface tour
+
+The live interface is arranged in the same order as the experiment executes and displays: controls and the coupled court/brain view first, the retinal and embodied views next, then activity and run diagnostics.
+
+### 1. Experiment controls, Pong court, and persistent brain section
+
+![Top of the experiment interface: controls, Pong court, and persistent 2D brain section](docs/images/interface-controls-court-brain.png)
+
+The top toolbar pauses execution, resets either the task or the complete neural state, and exports a run log. The left panel is the committed Pong court that feeds the camera; the right panel is the persistent 2D anatomical section. Its teal, gray, tan, and orange marks distinguish optic lobe, central brain, nerve cord, and descending/motor populations, while bright markers expose sampled live activity.
+
+### 2. Binocular retinal sampling and 3D embodiment
+
+![Middle of the experiment interface: binocular retina crops and 3D fruit-fly embodiment](docs/images/interface-retina-embodiment.png)
+
+Below the court, the left and right eye panels show the overlapping camera crops and their 8 by 4 channel displays. These luminance channels are the visual measurement supplied to mapped photoreceptors. Alongside them, the 3D fly provides the display-only embodiment view: its foreleg pose reflects the live joint and muscle-actuator state that moves the paddles.
+
+### 3. Activity inspector and run status
+
+![Bottom of the experiment interface: activity inspector and run status](docs/images/interface-activity-run-status.png)
+
+The bottom panels summarize the completed neural batches. The activity inspector reports optic, central, and descending firing rates, total unique spikes, a population raster, and the selected neuron's membrane/activity trace. Run status records retinal coverage, dopamine-gated plasticity, motor-pool assignments, graph and mask sizes, task events, and the availability of a reproducible JSON run log.
+
 ## Scientific scope and current evidence
 
 The retained MaleCNS v1.0 runtime contains 166,700 annotated neurons, 25,582,938 directed neuron-pair edges, and 124,177,617 summed contact counts. These describe the project's converted runtime rather than every object or synapse in the source release. The model stores unresolved-sign connections but does not let them transmit under its deliberately coarse sign convention.
