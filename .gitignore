@@ -1,0 +1,14 @@
+node_modules/
+dist/
+# Exclude generated bundles and build caches; both supported build paths derive the application and worker from the same research source.
+.vite/
+coverage/
+public/data/runtime/
+experiments/runs/
+experiments/performance/
+# Manuscript source, evidence, and rendered PDFs are intentionally local-only.
+paper/
+*.local
+*.log
+*.smoke-*.txt
+__pycache__/

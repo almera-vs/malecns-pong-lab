@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "MaleCNS Pong Lab"
+message: "Please cite this software release and the MaleCNS dataset. The repository includes a methods and preliminary-results manuscript."
+type: software
+version: 0.1.0
+license: MIT
+abstract: "An inspectable connectome-based platform for closed-loop sensorimotor experiments, with annotation-grounded interfaces, sparse spiking dynamics, event-gated plasticity, and paired held-out evaluation."
+keywords:
+  - connectomics
+  - Drosophila
+  - neural simulation
+  - Pong
+  - sensorimotor control
+  - reproducibility

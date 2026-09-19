@@ -1,0 +1,337 @@
+{
+  "dataset": "male-cns:v1.0",
+  "sourceFiles": [
+    {
+      "file": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    {
+      "file": "body-neurotransmitters-male-cns-v1.0.feather",
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    {
+      "file": "connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    },
+    {
+      "file": "optic-column-type-assignments-v1.0.xlsx",
+      "sha256": "d4af1cacb751036f7e84bfecc9bec79ca010066ac066559c29b566003ec080d3"
+    }
+  ],
+  "neurons": 166700,
+  "graphEdges": 25582938,
+  "synapses": 124177617,
+  "metadata": "neurons.json.gz",
+  "metadataSha256": "8e73b502026f3bfeab53d5595defb45181c2eb42dfb782b6d4f5a62b500bce3f",
+  "arrays": [
+    {
+      "name": "offsets",
+      "length": 166701,
+      "dtype": "uint32",
+      "parts": [
+        {
+          "file": "offsets-000.bin.gz",
+          "bytes": 373277,
+          "sha256": "3016e31462e2ec4cc533471b0d92abe2f1d045056e01f2ad07938128a9b5b8e0"
+        }
+      ]
+    },
+    {
+      "name": "sources",
+      "length": 25582938,
+      "dtype": "uint32",
+      "parts": [
+        {
+          "file": "sources-000.bin.gz",
+          "bytes": 4062172,
+          "sha256": "ceaf69cba849235e8baba60e1e79cff6d2c72edf2f48178830d1031bbb5db5d5"
+        },
+        {
+          "file": "sources-001.bin.gz",
+          "bytes": 4473667,
+          "sha256": "5df5ec789757017f8c5c7cf2ff342ed032cdbd8e3d282075ced2289c52425388"
+        },
+        {
+          "file": "sources-002.bin.gz",
+          "bytes": 4690720,
+          "sha256": "9c5efa7f72367265c6d7af512c926fe88c236c2cbd6220f9dc394f2ff37eef17"
+        },
+        {
+          "file": "sources-003.bin.gz",
+          "bytes": 4880880,
+          "sha256": "2971d9b838e50d8870a1435d8e290a1d499dd18affd4fe248dd3aa83d105265b"
+        },
+        {
+          "file": "sources-004.bin.gz",
+          "bytes": 5004674,
+          "sha256": "d2549b52015e61fcbed327137b2109c2a072deb2c74dd4deb922f721a1461cfb"
+        },
+        {
+          "file": "sources-005.bin.gz",
+          "bytes": 5086653,
+          "sha256": "9e55e0ee5f3c0212fabe779f64b1dd8769c45d2bc0cf283fd87d167f61f12ade"
+        },
+        {
+          "file": "sources-006.bin.gz",
+          "bytes": 5129761,
+          "sha256": "63add077d1dbbf9afa2ab6bf37c3e74968ca4e92a3b021bf7826395898e5a517"
+        },
+        {
+          "file": "sources-007.bin.gz",
+          "bytes": 5179266,
+          "sha256": "e6fd081be722631acd051987c85ac5818367de21071d9b8b8d6e68f7357fd642"
+        },
+        {
+          "file": "sources-008.bin.gz",
+          "bytes": 5202167,
+          "sha256": "4259517f7bb5bd4e30de12339a6bae3765dffa2017c08202b12bc255169c303a"
+        },
+        {
+          "file": "sources-009.bin.gz",
+          "bytes": 4879035,
+          "sha256": "76afb11d10f6b440235939641a301bd581cdad40e90d430879c0aa58482e1f52"
+        },
+        {
+          "file": "sources-010.bin.gz",
+          "bytes": 4730468,
+          "sha256": "e620d8401d430740568b9813bfd559583f50bb291dcfc6bb7a7e72ad6720ce2d"
+        },
+        {
+          "file": "sources-011.bin.gz",
+          "bytes": 4110668,
+          "sha256": "89720c36576c8a6e0d6cbf6af7093aa6842290189ca5ae1b18eedf7578058c1c"
+        },
+        {
+          "file": "sources-012.bin.gz",
+          "bytes": 3355060,
+          "sha256": "128543abbe1f8e749fc523ad7c9e6f426057494d657f3735c6e36cf5006e9772"
+        }
+      ]
+    },
+    {
+      "name": "counts",
+      "length": 25582938,
+      "dtype": "uint32",
+      "parts": [
+        {
+          "file": "counts-000.bin.gz",
+          "bytes": 1418084,
+          "sha256": "a073ca9833e4ed72abbc4e5d8cbd0ea3a093783c0024df5ab842c46defaaa3a8"
+        },
+        {
+          "file": "counts-001.bin.gz",
+          "bytes": 1327508,
+          "sha256": "2278b575d471064b9b782ab0b6731dfccec541d42fdf008bfd7e40edfb5eceb5"
+        },
+        {
+          "file": "counts-002.bin.gz",
+          "bytes": 1291711,
+          "sha256": "aa667c607fc8bd33557fc4e75ac73be4c53dcb65ee034af2fee27d2095ff8144"
+        },
+        {
+          "file": "counts-003.bin.gz",
+          "bytes": 1240900,
+          "sha256": "5c0cb32ae29f111e09362ab8553bd077e658c71cd7f7fd9c7f75462958d9838c"
+        },
+        {
+          "file": "counts-004.bin.gz",
+          "bytes": 1181375,
+          "sha256": "7f4bcb73f9b5905e323fb65fe186aa9b92bf59d373e50ba2e9e78965cfdae1f9"
+        },
+        {
+          "file": "counts-005.bin.gz",
+          "bytes": 1125694,
+          "sha256": "c8da9610d1396b4b4ff04632208b346ce3a229ff530166280c5cb880213f6ade"
+        },
+        {
+          "file": "counts-006.bin.gz",
+          "bytes": 1098614,
+          "sha256": "d92014fa1bd02569a361702158752f05f660335810464b4cc7a1dd89bb22c3f3"
+        },
+        {
+          "file": "counts-007.bin.gz",
+          "bytes": 1090754,
+          "sha256": "41f85062788f49c0dac4e6708c86e2143e2e49e5f938958db4ad357fe9b69cff"
+        },
+        {
+          "file": "counts-008.bin.gz",
+          "bytes": 1057278,
+          "sha256": "13d4525751eb68bc25913e5301f3f1adbeb934298f72f4938afbf5fec685f7c8"
+        },
+        {
+          "file": "counts-009.bin.gz",
+          "bytes": 1123068,
+          "sha256": "8bb02feafbe0ae05cc86b402299d7f88f5b6a6430c4451c077988789c5a0072a"
+        },
+        {
+          "file": "counts-010.bin.gz",
+          "bytes": 1221520,
+          "sha256": "13a0bc9fa3166c8e4f67b1464ca50be47f29e0aa9fe22a41a6c0b5893d6ff6b2"
+        },
+        {
+          "file": "counts-011.bin.gz",
+          "bytes": 1368910,
+          "sha256": "b07c9bf53b40699ec2b238f7d88f7cdfa7dd9b4eca063ffae8c80089353f6071"
+        },
+        {
+          "file": "counts-012.bin.gz",
+          "bytes": 964572,
+          "sha256": "0a0c2002cb07b54158c685add21c5570f47a8a74e86733be574903190dd5341b"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "offsets-000.bin.gz",
+      "bytes": 373277,
+      "sha256": "3016e31462e2ec4cc533471b0d92abe2f1d045056e01f2ad07938128a9b5b8e0"
+    },
+    {
+      "file": "sources-000.bin.gz",
+      "bytes": 4062172,
+      "sha256": "ceaf69cba849235e8baba60e1e79cff6d2c72edf2f48178830d1031bbb5db5d5"
+    },
+    {
+      "file": "sources-001.bin.gz",
+      "bytes": 4473667,
+      "sha256": "5df5ec789757017f8c5c7cf2ff342ed032cdbd8e3d282075ced2289c52425388"
+    },
+    {
+      "file": "sources-002.bin.gz",
+      "bytes": 4690720,
+      "sha256": "9c5efa7f72367265c6d7af512c926fe88c236c2cbd6220f9dc394f2ff37eef17"
+    },
+    {
+      "file": "sources-003.bin.gz",
+      "bytes": 4880880,
+      "sha256": "2971d9b838e50d8870a1435d8e290a1d499dd18affd4fe248dd3aa83d105265b"
+    },
+    {
+      "file": "sources-004.bin.gz",
+      "bytes": 5004674,
+      "sha256": "d2549b52015e61fcbed327137b2109c2a072deb2c74dd4deb922f721a1461cfb"
+    },
+    {
+      "file": "sources-005.bin.gz",
+      "bytes": 5086653,
+      "sha256": "9e55e0ee5f3c0212fabe779f64b1dd8769c45d2bc0cf283fd87d167f61f12ade"
+    },
+    {
+      "file": "sources-006.bin.gz",
+      "bytes": 5129761,
+      "sha256": "63add077d1dbbf9afa2ab6bf37c3e74968ca4e92a3b021bf7826395898e5a517"
+    },
+    {
+      "file": "sources-007.bin.gz",
+      "bytes": 5179266,
+      "sha256": "e6fd081be722631acd051987c85ac5818367de21071d9b8b8d6e68f7357fd642"
+    },
+    {
+      "file": "sources-008.bin.gz",
+      "bytes": 5202167,
+      "sha256": "4259517f7bb5bd4e30de12339a6bae3765dffa2017c08202b12bc255169c303a"
+    },
+    {
+      "file": "sources-009.bin.gz",
+      "bytes": 4879035,
+      "sha256": "76afb11d10f6b440235939641a301bd581cdad40e90d430879c0aa58482e1f52"
+    },
+    {
+      "file": "sources-010.bin.gz",
+      "bytes": 4730468,
+      "sha256": "e620d8401d430740568b9813bfd559583f50bb291dcfc6bb7a7e72ad6720ce2d"
+    },
+    {
+      "file": "sources-011.bin.gz",
+      "bytes": 4110668,
+      "sha256": "89720c36576c8a6e0d6cbf6af7093aa6842290189ca5ae1b18eedf7578058c1c"
+    },
+    {
+      "file": "sources-012.bin.gz",
+      "bytes": 3355060,
+      "sha256": "128543abbe1f8e749fc523ad7c9e6f426057494d657f3735c6e36cf5006e9772"
+    },
+    {
+      "file": "counts-000.bin.gz",
+      "bytes": 1418084,
+      "sha256": "a073ca9833e4ed72abbc4e5d8cbd0ea3a093783c0024df5ab842c46defaaa3a8"
+    },
+    {
+      "file": "counts-001.bin.gz",
+      "bytes": 1327508,
+      "sha256": "2278b575d471064b9b782ab0b6731dfccec541d42fdf008bfd7e40edfb5eceb5"
+    },
+    {
+      "file": "counts-002.bin.gz",
+      "bytes": 1291711,
+      "sha256": "aa667c607fc8bd33557fc4e75ac73be4c53dcb65ee034af2fee27d2095ff8144"
+    },
+    {
+      "file": "counts-003.bin.gz",
+      "bytes": 1240900,
+      "sha256": "5c0cb32ae29f111e09362ab8553bd077e658c71cd7f7fd9c7f75462958d9838c"
+    },
+    {
+      "file": "counts-004.bin.gz",
+      "bytes": 1181375,
+      "sha256": "7f4bcb73f9b5905e323fb65fe186aa9b92bf59d373e50ba2e9e78965cfdae1f9"
+    },
+    {
+      "file": "counts-005.bin.gz",
+      "bytes": 1125694,
+      "sha256": "c8da9610d1396b4b4ff04632208b346ce3a229ff530166280c5cb880213f6ade"
+    },
+    {
+      "file": "counts-006.bin.gz",
+      "bytes": 1098614,
+      "sha256": "d92014fa1bd02569a361702158752f05f660335810464b4cc7a1dd89bb22c3f3"
+    },
+    {
+      "file": "counts-007.bin.gz",
+      "bytes": 1090754,
+      "sha256": "41f85062788f49c0dac4e6708c86e2143e2e49e5f938958db4ad357fe9b69cff"
+    },
+    {
+      "file": "counts-008.bin.gz",
+      "bytes": 1057278,
+      "sha256": "13d4525751eb68bc25913e5301f3f1adbeb934298f72f4938afbf5fec685f7c8"
+    },
+    {
+      "file": "counts-009.bin.gz",
+      "bytes": 1123068,
+      "sha256": "8bb02feafbe0ae05cc86b402299d7f88f5b6a6430c4451c077988789c5a0072a"
+    },
+    {
+      "file": "counts-010.bin.gz",
+      "bytes": 1221520,
+      "sha256": "13a0bc9fa3166c8e4f67b1464ca50be47f29e0aa9fe22a41a6c0b5893d6ff6b2"
+    },
+    {
+      "file": "counts-011.bin.gz",
+      "bytes": 1368910,
+      "sha256": "b07c9bf53b40699ec2b238f7d88f7cdfa7dd9b4eca063ffae8c80089353f6071"
+    },
+    {
+      "file": "counts-012.bin.gz",
+      "bytes": 964572,
+      "sha256": "0a0c2002cb07b54158c685add21c5570f47a8a74e86733be574903190dd5341b"
+    },
+    {
+      "file": "neurons.json.gz",
+      "bytes": 7782065,
+      "sha256": "8e73b502026f3bfeab53d5595defb45181c2eb42dfb782b6d4f5a62b500bce3f"
+    }
+  ],
+  "opticColumnMapping": {
+    "source": "optic-column-type-assignments-v1.0.xlsx",
+    "mappedR7R8Cells": 2628,
+    "mappedR1R6ViaStrongestAssignedL1Partner": 3239,
+    "positionProjection": "normalized optic-column lattice to 8x4 image bins; angular calibration unavailable"
+  },
+  "assumptions": [
+    "ACh +1 and GABA -1 as coarse fast-sign conventions; annotated ol_sensory histamine photoreceptors use -1 based on established inhibitory feed-forward signaling. Glutamate, glycine, and other transmitters map to 0 because neuron-level transmitter predictions do not identify postsynaptic receptor polarity.",
+    "0.275 mV per synapse."
+  ],
+  "metadataPreserved": "All original neuron annotation fields are retained in each neuron record."
+}

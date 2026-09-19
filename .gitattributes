@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.bin.gz binary
+*.feather binary
+*.pdf binary
+# Preserve the exact compressed-runtime manifest bytes used to identify the experiment.
+data/runtime-manifest.json -text
